@@ -34,7 +34,7 @@ module.exports = function pictureCard(pic) {
             </div>`
     }
 
-    function like(liked) {
+    function like(liked) {echo "# MupinNat" >> README.md
         pic.liked = liked;
         pic.likes += liked ? 1 : -1;
         var newEl = render(pic);
@@ -46,3 +46,5 @@ module.exports = function pictureCard(pic) {
     return el;
 
 }
+
+hola
